@@ -7,7 +7,9 @@ h2 {
 html, body {
   margin: 0;
   height: 100%;
+  background: #CCCCCC;
 }
+
 
 * {
   font-family: "Raleway";
@@ -38,6 +40,17 @@ html, body {
 .menu > li {
   margin: 0 1rem;
 }
+
+.menu > li > a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu > li > a:hover{
+  text-decoration: none;
+  color: #fdd;
+}
+
 
 .menu-button-container {
   display: none;
@@ -129,3 +142,12 @@ html, body {
     border-bottom: 1px solid #444;
   }
 }
+
+
+.container{
+  background: #fff;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
