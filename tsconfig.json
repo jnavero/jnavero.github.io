@@ -1,0 +1,14 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "scripts/",
+        "watch": true,
+        "sourceMap": true,
+        "rootDir": "ts",
+        "strict": false
+    },
+    "exclude": [
+        "/scripts"
+    ]
+}
