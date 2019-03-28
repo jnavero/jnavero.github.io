@@ -41,6 +41,7 @@ html, body {
   margin: 0 1rem;
 }
 
+
 .menu > li > a{
   text-decoration: none;
   color: #fff;
@@ -48,7 +49,7 @@ html, body {
 
 .menu > li > a:hover{
   text-decoration: none;
-  color: #fdd;
+  color: #aaf;
 }
 
 
@@ -143,11 +144,36 @@ html, body {
   }
 }
 
-
 .container{
-  background: #fff;
+  background: #ddd;
   width: 80%;
   margin: 0 auto;
 }
 
+.sectionContainer{
+ background: #fff;
+ padding: 10px;
+ margin: 10px 0px;
 
+}
+
+.sectionTitle{
+  text-align: center;
+}
+
+.sectionTitleEdited{
+  text-align: center;
+  font-size: 11px;
+}
+
+.sectionBody{
+  padding: 10px;
+  text-align: justify;
+}
+
+
+footer{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 11px;
+}
