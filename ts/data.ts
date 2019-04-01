@@ -2,6 +2,6 @@
 export interface IdataBlog {
     id: Number;
     title: string;
-    content: string;
+    content: string[];
     editedBy: string
 }

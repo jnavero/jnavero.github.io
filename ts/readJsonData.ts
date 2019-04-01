@@ -30,6 +30,8 @@ class ReadJsonData {
       let sectionTitle: HTMLElement;
       let sectionBody: HTMLElement;
       let sectionTitleEdited: HTMLElement;
+      let contentText: string;
+
       sectionParent = document.createElement("div");
       sectionTitle = document.createElement("div");
       sectionTitleEdited = document.createElement("div");
@@ -41,7 +43,9 @@ class ReadJsonData {
       sectionBody.className = "sectionBody";
 
       sectionTitle.innerHTML = converter.makeHtml(item.title);
-      sectionBody.innerHTML = converter.makeHtml(item.content);
+
+      contentText = item.content.join("\n\n");
+      sectionBody.innerHTML = converter.makeHtml(contentText);
       sectionTitleEdited.innerHTML = converter.makeHtml("by " + item.editedBy);
 
       sectionParent.appendChild(sectionTitle);
