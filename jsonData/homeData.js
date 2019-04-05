@@ -20,7 +20,6 @@ var data = {
                 "Content 3 This an example webhook",
                 " and other things",
                 " - like a multiline.",
-                " **Example code**. ",
                 " **Example to show how to work this**. "
             ],
             "editedBy": "JNavero - 01-04-2019"
