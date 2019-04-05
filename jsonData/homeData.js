@@ -27,8 +27,8 @@ var data = {
         {
             "id": 4,
             "title": "#TEST PA' JMMONTERO \n ---- \n\n",
-            "content":0["Content 2"],
+            "content":["Content 2"],
             "editedBy": "JNavero - 05-04-2019"
-        },
+        }
     ]
 }
